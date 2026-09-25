@@ -1,0 +1,381 @@
+/* ==========================
+   ANA SAYFA
+========================== */
+
+
+main{
+
+    width:100%;
+
+}
+
+
+
+/* ==========================
+   HERO
+========================== */
+
+
+.hero{
+
+
+    min-height:calc(100vh - 75px);
+
+
+    display:flex;
+
+
+    justify-content:center;
+
+
+    align-items:center;
+
+
+    text-align:center;
+
+
+    padding:40px 20px;
+
+
+
+    background:
+
+
+    radial-gradient(
+        circle at top right,
+        rgba(37,99,235,.18),
+        transparent 35%
+    ),
+
+
+    radial-gradient(
+        circle at bottom left,
+        rgba(59,130,246,.12),
+        transparent 30%
+    ),
+
+
+    #f8fafc;
+
+
+
+}
+
+
+
+.hero-icerik{
+
+
+    max-width:900px;
+
+
+}
+
+
+
+.hero h1{
+
+
+    font-size:64px;
+
+
+    font-weight:800;
+
+
+    letter-spacing:-2px;
+
+
+    margin-bottom:25px;
+
+
+
+    background:linear-gradient(
+        90deg,
+        #111827,
+        #2563eb
+    );
+
+
+    -webkit-background-clip:text;
+
+
+    color:transparent;
+
+
+}
+
+
+
+
+.hero p{
+
+
+    font-size:20px;
+
+
+    color:#6b7280;
+
+
+    line-height:1.7;
+
+
+}
+
+
+
+
+
+
+/* ==========================
+   ÇÖZÜMLERİMİZ
+========================== */
+
+
+.hizmetler{
+
+
+    width:90%;
+
+
+    max-width:1200px;
+
+
+    margin:80px auto;
+
+
+}
+
+
+
+
+
+.hizmet-baslik{
+
+
+    text-align:center;
+
+
+    margin-bottom:40px;
+
+
+}
+
+
+
+.hizmet-baslik h2{
+
+
+    font-size:36px;
+
+
+    color:#111827;
+
+
+}
+
+
+
+
+
+.hizmet-kartlari{
+
+
+    display:flex;
+
+
+    justify-content:center;
+
+
+    align-items:stretch;
+
+
+    gap:25px;
+
+
+}
+
+
+
+
+
+.hizmet-karti{
+
+
+    flex:1;
+
+
+    max-width:350px;
+
+
+    background:white;
+
+
+    padding:40px 30px;
+
+
+    border-radius:24px;
+
+
+    border:1px solid #e5e7eb;
+
+
+    text-align:center;
+
+
+    box-shadow:
+    0 15px 35px rgba(0,0,0,.06);
+
+
+    transition:.35s;
+
+
+}
+
+
+
+
+.hizmet-karti:hover{
+
+
+    transform:translateY(-10px);
+
+
+    box-shadow:
+    0 25px 50px rgba(37,99,235,.15);
+
+
+}
+
+
+
+
+.hizmet-ikon{
+
+
+    width:75px;
+
+
+    height:75px;
+
+
+    margin:0 auto 20px;
+
+
+    border-radius:20px;
+
+
+    background:#2563eb;
+
+
+    display:flex;
+
+
+    justify-content:center;
+
+
+    align-items:center;
+
+
+}
+
+
+
+.hizmet-ikon i{
+
+
+    color:white;
+
+
+    font-size:30px;
+
+
+}
+
+
+
+
+.hizmet-karti h3{
+
+
+    font-size:22px;
+
+
+    color:#111827;
+
+
+}
+
+
+
+
+
+
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+
+
+@media(max-width:768px){
+
+
+
+.hero h1{
+
+
+    font-size:38px;
+
+
+}
+
+
+
+.hero p{
+
+
+    font-size:17px;
+
+
+}
+
+
+
+
+
+.hizmet-kartlari{
+
+
+    flex-direction:column;
+
+
+    align-items:center;
+
+
+}
+
+
+
+
+.hizmet-karti{
+
+
+    width:100%;
+
+
+}
+
+
+
+
+.hizmet-baslik h2{
+
+
+    font-size:30px;
+
+
+}
+
+
+
+}

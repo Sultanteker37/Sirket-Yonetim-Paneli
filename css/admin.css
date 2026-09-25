@@ -1,0 +1,486 @@
+/* ==========================
+   GENEL AYARLAR
+========================== */
+
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+
+
+body{
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    background:#f4f7fc;
+
+    color:#111827;
+
+}
+
+
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+
+
+ul{
+
+    list-style:none;
+
+}
+
+
+
+
+
+
+/* ==========================
+   ANA PANEL
+========================== */
+
+
+.admin-container{
+
+
+    display:flex;
+
+    min-height:100vh;
+
+
+}
+
+
+
+
+
+
+/* ==========================
+   SOL MENÜ
+========================== */
+
+
+.admin-menu{
+
+
+    width:260px;
+
+
+    background:#111827;
+
+
+    color:white;
+
+
+    padding:30px 20px;
+
+
+}
+
+
+
+.admin-menu h2{
+
+
+    font-size:28px;
+
+    margin-bottom:5px;
+
+
+}
+
+
+
+.admin-menu p{
+
+
+    color:#9ca3af;
+
+    margin-bottom:35px;
+
+
+}
+
+
+
+
+
+.admin-menu ul li{
+
+
+    margin-bottom:10px;
+
+
+}
+
+
+
+.admin-menu ul li a{
+
+
+    display:block;
+
+
+    padding:14px 18px;
+
+
+    border-radius:10px;
+
+
+    color:#d1d5db;
+
+
+    transition:.3s;
+
+
+}
+
+
+
+
+
+.admin-menu ul li a:hover{
+
+
+    background:#2563eb;
+
+
+    color:white;
+
+
+}
+
+
+
+
+
+
+
+/* ==========================
+   ANA İÇERİK
+========================== */
+
+
+.admin-icerik{
+
+
+    flex:1;
+
+
+    padding:40px;
+
+
+}
+
+
+
+
+
+
+/* ==========================
+   ÜST ALAN
+========================== */
+
+
+.admin-header{
+
+
+    display:flex;
+
+
+    justify-content:space-between;
+
+
+    align-items:center;
+
+
+    margin-bottom:40px;
+
+
+}
+
+
+
+.admin-header h1{
+
+
+    font-size:32px;
+
+
+}
+
+
+
+
+.profil{
+
+
+    background:white;
+
+
+    padding:12px 20px;
+
+
+    border-radius:10px;
+
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+
+}
+
+
+
+
+
+
+
+/* ==========================
+   ÖZET KARTLARI
+========================== */
+
+
+.ozet-kartlari{
+
+
+    display:grid;
+
+
+    grid-template-columns:repeat(4,1fr);
+
+
+    gap:25px;
+
+
+    margin-bottom:40px;
+
+
+}
+
+
+
+
+
+
+.ozet-karti{
+
+
+    background:white;
+
+
+    padding:30px;
+
+
+    border-radius:18px;
+
+
+    box-shadow:0 10px 25px rgba(0,0,0,.06);
+
+
+    transition:.3s;
+
+
+}
+
+
+
+
+
+.ozet-karti:hover{
+
+
+    transform:translateY(-5px);
+
+
+}
+
+
+
+
+
+.ozet-karti h3{
+
+
+    font-size:32px;
+
+
+    color:#2563eb;
+
+
+    margin-bottom:10px;
+
+
+}
+
+
+
+.ozet-karti p{
+
+
+    color:#6b7280;
+
+
+}
+
+
+
+
+
+
+
+
+/* ==========================
+   AKTİVİTELER
+========================== */
+
+
+
+.dashboard-alani{
+
+
+    background:white;
+
+
+    padding:30px;
+
+
+    border-radius:18px;
+
+
+    box-shadow:0 10px 25px rgba(0,0,0,.06);
+
+
+}
+
+
+
+.dashboard-alani h2{
+
+
+    margin-bottom:20px;
+
+
+}
+
+
+
+.aktivite p{
+
+
+    padding:15px 0;
+
+
+    border-bottom:1px solid #e5e7eb;
+
+
+    color:#4b5563;
+
+
+}
+
+
+
+
+
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+
+@media(max-width:900px){
+
+
+
+.admin-container{
+
+
+    flex-direction:column;
+
+
+}
+
+
+
+.admin-menu{
+
+
+    width:100%;
+
+
+}
+
+
+
+
+.ozet-kartlari{
+
+
+    grid-template-columns:repeat(2,1fr);
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+@media(max-width:600px){
+
+
+
+.admin-icerik{
+
+
+    padding:20px;
+
+
+}
+
+
+
+
+.admin-header{
+
+
+    flex-direction:column;
+
+
+    align-items:flex-start;
+
+
+    gap:20px;
+
+
+}
+
+
+
+
+.ozet-kartlari{
+
+
+    grid-template-columns:1fr;
+
+
+}
+
+
+
+}

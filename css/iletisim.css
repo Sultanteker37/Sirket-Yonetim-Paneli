@@ -1,0 +1,389 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+/* ===========================
+   İLETİŞİM ÜST
+=========================== */
+
+.iletisim-ust{
+
+    width:90%;
+    max-width:900px;
+
+    margin:100px auto 70px;
+
+    text-align:center;
+
+}
+
+
+.iletisim-ust h1{
+
+    font-size:48px;
+
+    margin-bottom:20px;
+
+    color:#111827;
+
+}
+
+
+.iletisim-ust p{
+
+    font-size:20px;
+
+    color:#6b7280;
+
+    line-height:1.8;
+
+}
+
+
+
+
+
+/* ===========================
+   İLETİŞİM BİLGİLERİ
+=========================== */
+
+
+.iletisim-bilgileri{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:0 auto 100px;
+
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+    flex-wrap:wrap;
+
+}
+
+
+
+
+/* ===========================
+   BİLGİ KARTLARI
+=========================== */
+
+
+.bilgi-karti{
+
+
+    width:260px;
+
+
+    padding:35px 25px;
+
+
+    background:white;
+
+
+    text-align:center;
+
+
+    border:1px solid #e5e7eb;
+
+
+    border-radius:20px;
+
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+
+    transition:.3s;
+
+}
+
+
+
+.bilgi-karti:hover{
+
+
+    transform:translateY(-8px);
+
+
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+
+
+}
+
+
+
+
+
+/* ===========================
+   İKON
+=========================== */
+
+
+.ikon{
+
+
+    width:70px;
+
+    height:70px;
+
+
+    margin:0 auto 20px;
+
+
+    border-radius:50%;
+
+
+    background:#2563eb;
+
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+
+}
+
+
+
+.ikon i{
+
+
+    font-size:28px;
+
+    color:white;
+
+}
+
+
+
+
+/* ===========================
+   KART YAZILARI
+=========================== */
+
+
+.bilgi-karti h3{
+
+
+    font-size:22px;
+
+    margin-bottom:12px;
+
+
+    color:#111827;
+
+
+}
+
+
+
+.bilgi-karti p{
+
+
+    color:#6b7280;
+
+
+    line-height:1.7;
+
+
+}
+/* ===========================
+   İLETİŞİM FORMU
+=========================== */
+
+
+.iletisim-formu{
+
+
+    width:90%;
+
+    max-width:800px;
+
+
+    margin:0 auto 100px;
+
+
+    background:white;
+
+
+    padding:50px;
+
+
+    border:1px solid #e5e7eb;
+
+
+    border-radius:24px;
+
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+
+}
+
+
+
+.iletisim-formu h2{
+
+
+    text-align:center;
+
+    font-size:36px;
+
+    margin-bottom:15px;
+
+
+}
+
+
+
+.iletisim-formu > p{
+
+
+    text-align:center;
+
+    color:#6b7280;
+
+    margin-bottom:40px;
+
+}
+/* ===========================
+   FORM ELEMANLARI
+=========================== */
+
+
+.form-grup{
+
+    margin-bottom:25px;
+
+}
+
+
+.form-grup label{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    font-weight:600;
+
+    color:#111827;
+
+}
+
+
+
+.form-grup input,
+.form-grup textarea{
+
+
+    width:100%;
+
+    padding:14px 16px;
+
+
+    border:1px solid #d1d5db;
+
+
+    border-radius:10px;
+
+
+    font-size:16px;
+
+
+    font-family:Arial, Helvetica, sans-serif;
+
+
+    transition:.3s;
+
+}
+
+
+
+.form-grup textarea{
+
+    height:150px;
+
+    resize:none;
+
+}
+
+
+
+/* INPUT ODAK */
+
+.form-grup input:focus,
+.form-grup textarea:focus{
+
+
+    outline:none;
+
+    border-color:#2563eb;
+
+    box-shadow:0 0 0 3px rgba(37,99,235,.15);
+
+}
+
+
+
+
+/* BUTON */
+
+
+.iletisim-formu button{
+
+
+    width:100%;
+
+
+    padding:15px;
+
+
+    border:none;
+
+
+    border-radius:10px;
+
+
+    background:#2563eb;
+
+
+    color:white;
+
+
+    font-size:17px;
+
+
+    font-weight:600;
+
+
+    cursor:pointer;
+
+
+    transition:.3s;
+
+
+}
+
+
+
+.iletisim-formu button:hover{
+
+
+    background:#1d4ed8;
+
+
+    transform:translateY(-2px);
+
+
+}

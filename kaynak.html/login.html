@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Giriş</title>
+
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <link rel="stylesheet" href="../css/login.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <a href="index.html" class="logo"> AI Agent </a>
+
+        <nav>
+          <ul>
+            <li><a href="index.html">Ana Sayfa</a></li>
+
+            <li><a href="Hakkımızda.html">Hakkımızda</a></li>
+
+            <li><a href="Projects.html">Projeler</a></li>
+
+            <li><a href="İletişim.html">İletişim</a></li>
+
+            <li><a href="login.html">Giriş</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="login-box">
+        <h2>Yönetim Paneli Girişi</h2>
+
+        <form>
+          <label for="kullaniciAdi"> Kullanıcı Adı </label>
+
+          <input
+            autocomplete="username"
+            required
+            id="kullaniciAdi"
+            name="username"
+            type="text"
+            placeholder="Kullanıcı Adınızı Giriniz"
+          />
+
+          <label for="sifre"> Şifre </label>
+
+          <input
+            autocomplete="current-password"
+            required
+            id="sifre"
+            name="password"
+            type="password"
+            placeholder="Şifrenizi Giriniz"
+          />
+
+          <button type="button" onclick="girisKontrol()">Giriş Yap</button>
+        </form>
+      </div>
+    </main>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>

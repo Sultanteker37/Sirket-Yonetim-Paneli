@@ -1,0 +1,176 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+font-family: Arial, Helvetica, sans-serif;
+color:#111827 ;
+background:
+        radial-gradient(circle at top left, rgba(37,99,235,0.08), transparent 35%),
+        radial-gradient(circle at bottom right, rgba(139,92,246,0.06), transparent 35%),
+        #ffffff;
+}
+.about-hero{
+    max-width: 900px;
+    margin: 100px auto;
+    text-align: center;
+}
+.about-hero h1{
+    font-size: 52px;
+    color: #111827;
+    margin-bottom: 20px;
+}
+.about-hero p{
+    font-size: 20px;
+    color: #6b7280;
+    line-height: 1.8;
+}
+/* ================ Misyon ve vizyon*/
+.mission-vision{
+width: 90%;
+max-width: 1200px;
+margin: 100px auto;
+display: flex;
+justify-content: center;
+gap: 30px;
+}
+.card{
+    flex:1;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:16px;
+
+    border:1px solid #e5e7eb;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    transition:.3s;
+}
+.card:hover{
+    transform:translateY(-6px);
+}
+.card h2{
+    font-size:30px;
+    margin-bottom:20px;
+}
+.card p{
+    color:#6b7280;
+    line-height:1.8;
+}
+.statistics{
+    width: 90%;
+    max-width: 1200px;
+    margin: 80px auto;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.stat{
+    flex: 1;
+
+    background: white;
+
+    padding: 30px;
+
+    text-align: center;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 16px;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,.08);
+}
+.stat h3{
+    font-size: 42px;
+    color: #2563eb;
+    margin-bottom: 10px;
+}
+.stat p{
+    color: #6b7280;
+    font-size: 18px;
+}
+/* ===========================
+   ADVANTAGES
+=========================== */
+
+.advantages{
+    width:90%;
+    max-width:1200px;
+    margin:100px auto;
+}
+.advantages h2{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:50px;
+}
+.advantages-container{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:30px;
+
+}
+.advantage-card{
+
+    flex:1 1 500px;
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:18px;
+
+    border:1px solid #e5e7eb;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+.advantage-card:hover{
+
+    transform:translateY(-8px);
+
+}
+.advantage-card h3{
+
+    font-size:24px;
+
+    margin-bottom:18px;
+
+    color:#2563eb;
+
+}
+.advantage-card p{
+
+    color:#6b7280;
+
+    line-height:1.8;
+
+}
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media (max-width:768px){
+
+    .mission-vision{
+
+        flex-direction:column;
+
+    }
+
+    .statistics{
+
+        flex-direction:column;
+
+    }
+
+}
