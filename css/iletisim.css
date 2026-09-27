@@ -5,9 +5,6 @@
 }
 
 
-/* ===========================
-   İLETİŞİM ÜST
-=========================== */
 
 .iletisim-ust{
 
@@ -43,14 +40,6 @@
 }
 
 
-
-
-
-/* ===========================
-   İLETİŞİM BİLGİLERİ
-=========================== */
-
-
 .iletisim-bilgileri{
 
     width:90%;
@@ -69,13 +58,6 @@
     flex-wrap:wrap;
 
 }
-
-
-
-
-/* ===========================
-   BİLGİ KARTLARI
-=========================== */
 
 
 .bilgi-karti{
@@ -118,14 +100,6 @@
 
 
 }
-
-
-
-
-
-/* ===========================
-   İKON
-=========================== */
 
 
 .ikon{
@@ -352,7 +326,7 @@
     border:none;
 
 
-    border-radius:10px;
+    border-radius:11px;
 
 
     background:#2563eb;
@@ -361,10 +335,10 @@
     color:white;
 
 
-    font-size:17px;
+    font-size:18px;
 
 
-    font-weight:600;
+    font-weight:601;
 
 
     cursor:pointer;
