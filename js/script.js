@@ -27,9 +27,9 @@ const adminSifre = "admin";
 
 
 
-// =======================
+
 // LOGIN KONTROLÜ
-// =======================
+
 
 
 function girisKontrol(){
