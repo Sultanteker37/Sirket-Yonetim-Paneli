@@ -15,11 +15,6 @@ if(menuButonu && menu){
 
 
 
-
-// ADMIN BİLGİLERİ
-
-
-
 const adminKullanici = "admin";
 
 const adminSifre = "admin";
