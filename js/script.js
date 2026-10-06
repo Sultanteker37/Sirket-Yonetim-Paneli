@@ -28,7 +28,6 @@ const adminSifre = "admin";
 
 
 
-// LOGIN KONTROLÜ
 
 
 
