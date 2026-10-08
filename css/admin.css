@@ -241,11 +241,6 @@ ul{
 }
 
 
-
-
-
-
-
 /* ==========================
    ÖZET KARTLARI
 ========================== */
@@ -268,12 +263,7 @@ ul{
 
 }
 
-
-
-
-
-
-.ozet-karti{
+.ozet-kart{
 
 
     background:white;
@@ -293,10 +283,6 @@ ul{
 
 }
 
-
-
-
-
 .ozet-karti:hover{
 
 
@@ -304,11 +290,6 @@ ul{
 
 
 }
-
-
-
-
-
 .ozet-karti h3{
 
 
@@ -332,19 +313,6 @@ ul{
 
 
 }
-
-
-
-
-
-
-
-
-/* ==========================
-   AKTİVİTELER
-========================== */
-
-
 
 .dashboard-alani{
 
@@ -433,13 +401,7 @@ ul{
 }
 
 
-
 }
-
-
-
-
-
 
 @media(max-width:600px){
 
@@ -454,7 +416,6 @@ ul{
 }
 
 .admin-header{
-
 
     flex-direction:column;
 
