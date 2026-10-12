@@ -441,22 +441,13 @@ nav{
 
 }
 
-
-
-
-
 nav.acik{
-
-
     display:block;
-
-
 }
 nav ul{
 
 
     flex-direction:column;
-
 
     gap:20px;
 
@@ -465,7 +456,6 @@ nav ul{
 
 
     text-align:center;
-
 
 }
 
